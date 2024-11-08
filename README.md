@@ -8,7 +8,12 @@
 
 # Installation
 
-There are two ways to add the plugin to your project:
+To add the plugin to your project:
+
+1. Make sure you have Git installed.  You can download it here: https://git-scm.com/ 
+2. Open GitBash and navigate to your Unreal Engine 5.4 Plugins directory using the `cd` command.  The path usually looks like this: `C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
+3. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
+4. To update the plugin use the `git pull` command after navigating back to the repository using GitBash.
 
 1. **Directly in the Project Files.**  If you only need it in one project, create a Plugins folder inside your project directory, be sure to make it outside of the Content folder.  Place the `[PluginName]_Plugin` folder inside of the Plugins folder you just made.  Restart the editor.
     1. Example project Plugins file path: `C:\Users\username\Documents\Unreal Projects\PyToolsTesting\Plugins`
