@@ -1,6 +1,5 @@
-# ViewportConfigManager
- Unreal Engine plugin that manages viewport configurations
-# Info
+# Viewport Config Manager
+## Info
 
 - Unreal v5.4.4
 - Made with C++ and Editor Utility Blueprints
@@ -13,7 +12,7 @@ To add the plugin to your project:
 1. Make sure you have Git installed.  You can download it here: https://git-scm.com/ 
 2. Open GitBash and navigate to your Unreal Engine 5.4 Plugins directory using the `cd` command.  The path usually looks like this: `C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
 3. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
-4. To update the plugin use the `git pull` command after navigating back to the repository using GitBash.
+4. To update the plugin use the `git pull` command after navigating back to the repository using GitBash, which will pull the latest updates.
 
 # Using the Tool
 
