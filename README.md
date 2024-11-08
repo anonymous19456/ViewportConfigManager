@@ -5,7 +5,7 @@
 - Made with C++ and Editor Utility Blueprints
 - Plugin that allows you to save and load viewport configurations.  Differs from Unreal’s built-in Save/Load Layout functionality because it only focuses on the Level Editor Viewports, and it persists the settings and arrangement of those viewports panels.  Unreal’s built in functionality does not do this (to my knowledge).
 
-# Installation
+## Installation
 
 To add the plugin to your project:
 
@@ -14,7 +14,7 @@ To add the plugin to your project:
 3. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
 4. To update the plugin use the `git pull` command after navigating back to the repository using GitBash, which will pull the latest updates.
 
-# Using the Tool
+## Using the Tool
 
 1. Set up the viewport to your liking and navigate to “Window > Viewport Config Manager > Save  Config” at the top of the main window.  This will only work if you have the Level Editor open.
     
@@ -33,7 +33,7 @@ To add the plugin to your project:
     ![image.png](/Resources/ReadMeImages/DeleteVpConfigWindow.png)
     
 
-# Saved Properties
+## Saved Properties
 
 Below is a list of all the Level Editor Viewport properties that are saved and loaded by this plugin:
 
@@ -48,7 +48,7 @@ Below is a list of all the Level Editor Viewport properties that are saved and l
 - Game View
 - Allow Cinematic Control
 
-# Additional Notes
+## Additional Notes
 
 - If you save a config and give it the same name and an existing config, you will overwrite the existing config.
 - Do not open multiple tool windows at the same time.  You may end up trying to load or delete a config that does not exist, which will result in an error.
