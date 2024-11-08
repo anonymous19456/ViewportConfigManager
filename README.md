@@ -15,11 +15,6 @@ To add the plugin to your project:
 3. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
 4. To update the plugin use the `git pull` command after navigating back to the repository using GitBash.
 
-1. **Directly in the Project Files.**  If you only need it in one project, create a Plugins folder inside your project directory, be sure to make it outside of the Content folder.  Place the `[PluginName]_Plugin` folder inside of the Plugins folder you just made.  Restart the editor.
-    1. Example project Plugins file path: `C:\Users\username\Documents\Unreal Projects\PyToolsTesting\Plugins`
-2. **In the Engine folder.**  If you want the option to enable the plugin for all your projects of a certain engine version you can place the `[PluginName]_Plugin` folder inside of your engine’s plugin folder.  To add the plugin to a specific project, open the project, go to Plugins, and enable the plugin. Restart the editor.
-    1. Example engine Plugins file path: `C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
-
 # Using the Tool
 
 1. Set up the viewport to your liking and navigate to “Window > Viewport Config Manager > Save  Config” at the top of the main window.  This will only work if you have the Level Editor open.
