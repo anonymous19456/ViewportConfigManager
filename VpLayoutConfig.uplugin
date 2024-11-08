@@ -5,7 +5,7 @@
 	"FriendlyName": "Viewport Config Manager",
 	"Description": "Allows you to save and load viewport configurations.  Differs from Unreal’s built-in Save/Load Layout functionality because it only focuses on the Level Editor Viewports, and it persists the settings and arrangement of those viewports.  The built in functionality does not do this (to my knowledge).",
 	"Category": "Other",
-	"CreatedBy": "Ky'onna Alston",
+	"CreatedBy": "Ky A. @ OVFX",
 	"CreatedByURL": "",
 	"DocsURL": "",
 	"MarketplaceURL": "",
