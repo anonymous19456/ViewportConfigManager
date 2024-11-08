@@ -56,7 +56,7 @@ Below is a list of all the Level Editor Viewport properties that are saved and l
 
 ## Additional Notes
 
-- If you save a config and give it the same name and an existing config, you will overwrite the existing config.
+- If you save a config and give it the same name as an existing config, you will overwrite the existing config.
 - Do not open multiple tool windows at the same time.  You may end up trying to load or delete a config that does not exist, which will result in an error.
 - For some reason my tool windows start off way larger than they need to be.  Right now I’m not sure how to fix it but they can be manually resized.
 - To see messages solely related to the Viewport Configuration Manager in the Output Log, search `ViewportConfigPlugin`.
