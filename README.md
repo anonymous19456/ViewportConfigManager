@@ -19,7 +19,7 @@ To add the plugin to your project:
       
 6. To update the plugin use the `git pull` command after navigating back to the repository using GitBash, which will pull the latest updates.
 
-## Using the Tool
+## Using the Plugin
 
 1. Set up the viewport to your liking and navigate to “Window > Viewport Config Manager > Save  Config” at the top of the main window.  This will only work if you have the Level Editor open.
     
