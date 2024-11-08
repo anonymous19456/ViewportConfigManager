@@ -19,19 +19,19 @@ There are two ways to add the plugin to your project:
 
 1. Set up the viewport to your liking and navigate to “Window > Viewport Config Manager > Save  Config” at the top of the main window.  This will only work if you have the Level Editor open.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2e5aa031-589e-4025-84e9-ebe3ef30cc5c/e6de30ab-0d34-446b-a389-40199951f5e1/image.png)
+    ![image.png](/Resources/ReadMeImages/VpConfigManagerMenu.png)
     
 2. Type in a name for your viewport configuration and press “Save.”  I would advise against using special characters in your name because it might not save properly.  For good measure avoid characters that Windows would typically prevent you from using in a file name.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2e5aa031-589e-4025-84e9-ebe3ef30cc5c/bedc7cb2-e9f0-42a7-a3a7-6bca2f7de9ec/4944127c-b711-4a19-b54f-77f3931325d0.png)
+    ![image.png](/Resources/ReadMeImages/SaveVpConfigWindow.png)
     
 3. To load back your saved config, navigate to the Viewport Config Manager like before but select “Load Config.”  Select the configuration you’d like to load from the drop-down menu and press “Load”.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2e5aa031-589e-4025-84e9-ebe3ef30cc5c/694dab7c-a645-4822-8579-f9478956c1a3/ff50fb98-86aa-429a-bf75-481af254364e.png)
+    ![image.png](/Resources/ReadMeImages/LoadVpConfigWindow.png)
     
 4. To delete an existing config, navigate to the Viewport Config Manager menu and select “Delete Config.”  Select the configuration you want to delete from the drop-down menu and press “Delete.”
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2e5aa031-589e-4025-84e9-ebe3ef30cc5c/4f5e6109-38f7-4b1e-bde6-a172b72aa4a3/71a77f9e-10b0-4a72-9ed2-952d65f36c7d.png)
+    ![image.png](/Resources/ReadMeImages/DeleteVpConfigWindow.png)
     
 
 # Saved Properties
@@ -60,4 +60,4 @@ Below is a list of all the Level Editor Viewport properties that are saved and l
 - The Configurations are saved inside of the plugins `Resource` folder.  So if you choose to install the plugin directly to the Project files and you are using  version control, other people with access to that project can also access your configs unless your plugins folder is excluded from the version control.
 - If you open the editor and see a window like the one below, navigate to the tool in the menu hierarchy and re-open it.  Sometimes this happens when you leave a tool window open when closing the editor.
     
-    ![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/2e5aa031-589e-4025-84e9-ebe3ef30cc5c/a22c7347-f626-49a1-aaa7-7dd1e173a352/image.png)
+    ![image.png](/Resources/ReadMeImages/NoDockedTabsErrorWindow.png)
