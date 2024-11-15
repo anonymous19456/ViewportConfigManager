@@ -17,7 +17,7 @@ To add the plugin to your project:
 4. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
    1. `git clone "https://github.com/anonymous19456/ViewportConfigManager"`
       
-6. To update the plugin use the `git pull` command after navigating to the repository using GitBash, which will pull the latest updates.
+6. To update the plugin use the `git pull` command after navigating to the repository using GitBash, which will pull the latest updates
    1. Example: `git pull "C:\Program Files\Epic Games\UE_5.4\Engine\Plugins\ViewportConfigManager"`
 
 ## Using the Plugin
