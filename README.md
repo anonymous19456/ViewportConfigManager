@@ -1,7 +1,7 @@
 # Viewport Config Manager
 ## Info
 
-- Unreal v5.4.4
+- Unreal v5.3.2
 - Made with C++ and Editor Utility Blueprints
 - Plugin that allows you to save and load viewport configurations.  Differs from Unreal’s built-in Save/Load Layout functionality because it only focuses on the Level Editor Viewports, and it persists the settings and arrangement of those viewports panels.  Unreal’s built in functionality does not do this (to my knowledge).
 
@@ -12,7 +12,7 @@ To add the plugin to your project:
 1. Make sure you have Git installed.  You can download it here: https://git-scm.com/
     
 3. Open GitBash and navigate to your Unreal Engine 5.4 Plugins directory using the `cd` command.
-   1. `cd C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
+   1. `cd C:\Program Files\Epic Games\UE_5.3\Engine\Plugins`
       
 4. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
    1. `git clone https://github.com/anonymous19456/ViewportConfigManager`
