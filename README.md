@@ -11,7 +11,7 @@ To add the plugin to your project:
 
 1. Make sure you have Git installed.  You can download it here: https://git-scm.com/
     
-3. Open GitBash and navigate to your Unreal Engine 5.4 Plugins directory using the `cd` command.
+3. Open GitBash and navigate to your Unreal Engine 5.3 Plugins directory using the `cd` command.
    1. `cd C:\Program Files\Epic Games\UE_5.3\Engine\Plugins`
       
 4. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
