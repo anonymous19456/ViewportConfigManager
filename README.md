@@ -1,7 +1,7 @@
 # Viewport Config Manager
 ## Info
 
-- Unreal v5.4.4
+- Supports Unreal v5.3.2, v5.4.4, v5.5.0
 - Made with C++ and Editor Utility Blueprints
 - Plugin that allows you to save and load viewport configurations.  Differs from Unreal’s built-in Save/Load Layout functionality because it only focuses on the Level Editor Viewports, and it persists the settings and arrangement of those viewports panels.  Unreal’s built in functionality does not do this (to my knowledge).
 
@@ -9,7 +9,7 @@
 
 **There are 2 ways to get the plugin onto your computer:**
 
-Via GitBash: This way allows you to pull updates without re-downloading the entire plugin
+Method 1, Via GitBash: This way allows you to pull updates without re-downloading the entire plugin
 1. Make sure you have Git installed.  You can download it here: https://git-scm.com/
 2. Open GitBash and navigate to your Unreal Engine Plugins folder using the `cd` command, be sure to choose the correct engine version.
    1. Example: `cd "C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
@@ -23,12 +23,13 @@ Via GitBash: This way allows you to pull updates without re-downloading the enti
 6. To pull any updates use `git pull origin [branch_name]` after navigating into the Plugin folder using GitBash
 	1. ie. `git pull origin UE_5.5`   
 
-Via Download: You might prefer this way if you don't enjoy typing things into the Command Prompt
+Method 2, Via Download: You might prefer this way if you don't enjoy typing things into the Command Prompt
 1. Navigate to the branch that matches your Unreal Engine version (ie. 5.3, 5.4, etc).
 2. Click on the "Code" tab and select "Download ZIP".
 3. Once the zip file is finished downloading, navigate to you Unreal Engine Plugins folder, make sure it's the same engine version as the plugin.
-    1. Example path: `C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
+    1. Example path: `C:\Program Files\Epic Games\UE_5.5\Engine\Plugins`
 4. Unzip the plugin folder and place that unzipped folder into the Engine Plugins folder.
+5. Note that using this method will require you to reinstall the plugin this way, each time you'd like to update it.  You'll also have to moved your old saved configs into the new installation of the plugin or they won't show up in the Engine.
 
 **Enabling the Plugin**
 
@@ -73,11 +74,11 @@ Below is a list of all the Level Editor Viewport properties that are saved and l
 
 - If you save a config and give it the same name as an existing config, you will overwrite the existing config.
 - Do not open multiple tool windows at the same time.  You may end up trying to load or delete a config that does not exist, which will result in an error.
-- For some reason my tool windows start off way larger than they need to be.  Right now I’m not sure how to fix it but they can be manually resized.
+- For some reason the tool windows start off way larger than they need to be.  Right now I’m not sure how to fix it but they can be manually resized.
 - To see messages solely related to the Viewport Configuration Manager in the Output Log, search `ViewportConfigPlugin`.
 - You must have a Level Editor tab open in order to access the Viewport Config Manager menu.
 - When Saving and Loading configs, the changes are applied to the active viewport, so make sure that you have the correct viewport window selected.
-- The Configurations are saved inside of the plugins `Resource` folder.  So if you choose to install the plugin directly to the Project files and you are using  version control, other people with access to that project can also access your configs unless your plugins folder is excluded from the version control.
+- The Configurations are saved inside of the plugins `Resource` folder.
 - If you open the editor and see a window like the one below, navigate to the tool in the menu hierarchy and re-open it.  Sometimes this happens when you leave a tool window open when closing the editor.
     
     ![image.png](/Resources/ReadMeImages/NoDockedTabsErrorWindow.png)
