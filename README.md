@@ -7,18 +7,33 @@
 
 ## Installation
 
-To add the plugin to your project:
+**There are 2 ways to get the plugin onto your computer:**
 
+Via GitBash: This way allows you to pull updates without re-downloading the entire plugin
 1. Make sure you have Git installed.  You can download it here: https://git-scm.com/
-    
-3. Open GitBash and navigate to your Unreal Engine 5.4 Plugins directory using the `cd` command.
-   1. Example: `cd "C:\Program Files\Epic Games\UE_5.4\Engine\Plugins"`
-   2. Alternatively, you can navigate to the directory in your file browser, right click, and select "Open Git Bash here."
-      
-4. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside you Plugins folder.
+2. Open GitBash and navigate to your Unreal Engine Plugins folder using the `cd` command, be sure to choose the correct engine version.
+   1. Example: `cd "C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
+   2. Alternatively, you can navigate to the Plugins directory in your file browser, right click, and select "Open Git Bash here."
+3. Use the `git clone` command followed by `https://github.com/anonymous19456/ViewportConfigManager` to clone the repository inside your Plugins folder.
    1. `git clone "https://github.com/anonymous19456/ViewportConfigManager"`
-      
-6. To update the plugin use the `git pull` command after navigating to the repository in GitBash, which will pull the latest updates.
+4. Now type: `cd ViewportConfigManager` to enter the repository.
+5. To switch to the branch that matches your Unreal version type: `git checkout UE_x.x`, replace "x.x" with your engine version
+	1. ie. `git checkout UE_5.5`
+ 	2. This won't work if you try to switch to a non-existent branch, so make sure you check the repository page to see what versions of Unreal this plugin supports.
+6. To pull any updates use `git pull origin [branch_name]` after navigating into the Plugin folder using GitBash
+	1. ie. `git pull origin UE_5.5`   
+
+Via Download: You might prefer this way if you don't enjoy typing things into the Command Prompt
+1. Navigate to the branch that matches your Unreal Engine version (ie. 5.3, 5.4, etc).
+2. Click on the "Code" tab and select "Download ZIP".
+3. Once the zip file is finished downloading, navigate to you Unreal Engine Plugins folder, make sure it's the same engine version as the plugin.
+    1. Example path: `C:\Program Files\Epic Games\UE_5.4\Engine\Plugins`
+4. Unzip the plugin folder and place that unzipped folder into the Engine Plugins folder.
+
+**Enabling the Plugin**
+
+1. Open the Unreal project that you'd like to enable the plugin for. If the project is already open, close it and re-open it.
+2. Go to Edit > Plugins, search for "Viewport Config Manager" and enable the plugin.
 
 ## Using the Plugin
 
